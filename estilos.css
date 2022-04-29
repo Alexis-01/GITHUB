@@ -28,3 +28,32 @@ main{
     width: 200px;
     transform: rotate(30deg);
 }
+footer{
+     background-image: linear-gradient(to right, black, rgb(159, 250, 159));
+     color: aliceblue;
+     text-align: center;
+     font-size: 30px;
+     text-transform: capitalize;
+
+}
+h1{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: springgreen;
+    text-shadow: 5px 5px 5px black;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-delay: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes aparecer {
+        0% {
+        opacity: 0;
+    }
+        100%{
+        opacity: 1;
+    }
+}
